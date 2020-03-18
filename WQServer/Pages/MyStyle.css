@@ -1,0 +1,120 @@
+body
+{
+margin: 0px;
+font-family: wf_SegoeUI,'Segoe UI',Segoe,'Segoe WP',Tahoma,Verdana,Arial,sans-serif;
+font-style: normal;
+font-size: 20px;
+font-weight: 200;
+background-color: rgb(116, 161, 242);
+
+}
+#sheet
+{
+text-align: center;
+
+}
+.redder
+{
+text-align: left;
+display: inline-block;
+cursor: default;
+color: white;
+padding-left: 5px;
+background-color: red;
+border-style: solid;
+border-color: rgba(0,0,0,0);
+//border-radius: 10px;
+border-width: 1px;
+width: 80%;
+overflow: hidden;
+
+}
+.redder:hover
+{
+border-color: white;
+}
+.wt
+{
+color: white;
+}
+
+.ctl
+{
+visibility: hidden;
+}
+.banner
+{
+//padding-bottom: 5px;
+//text-align: center;
+color: white;
+font-size: 34px;
+background-color: black;
+}
+
+.lower
+{
+font-size: 10px;
+}
+
+button, .mainbtn
+{
+border-style: solid;
+border-width: 1px;
+border-color: white;
+color: white;
+background-color: rgba(0,0,0,0);
+outline: none;
+
+}
+.mainbtn
+{
+background-color: blue;
+padding: 5px;
+}
+button:hover
+{
+background-color: skyblue;
+//border-color: black;
+cursor: pointer;
+color: black;
+}
+button:active
+{
+background-color: white;
+color: black;
+}
+input, select
+{
+border-style: solid;
+border-width: 1px;
+border-color: lightgray;
+background-color: white;
+outline: none;
+padding: 5px;
+width: 100%;
+}
+
+input:focus, select:focus
+{
+border-color: blue;
+}
+
+
+td{outline: none;}
+
+
+#spt
+{
+position: fixed;
+bottom: 0px;
+right: 0px;
+font-size: 10px;
+}
+#hold
+{
+visibility: hidden;
+}
+#loading
+{
+color: white;
+}
